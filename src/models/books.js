@@ -4,17 +4,16 @@ const Schema = mongoose.Schema
 
 const bookSchema = new Schema({
 
-   name : {
+   author: {
        type : String,
        required : true,
        trim : true,
     
    },
-
+   
    author : {
      type : String,
-     required : true,
-     
+     required : true
    },
 
    numberOfPages : {
